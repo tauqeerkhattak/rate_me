@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:rate_me/routes/get_pages.dart';
 import 'package:rate_me/routes/routes.dart';
 
 void main() {
@@ -12,8 +13,8 @@ class RateMe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      routes: Routes.routes,
       initialRoute: Routes.home,
+      getPages: GetPages.pages,
     );
   }
 }

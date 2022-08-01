@@ -4,6 +4,8 @@
         android:label="rate_me"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyBzpdk5POrp6BNDtlGCZz0MzZWBd3rRZCo"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
